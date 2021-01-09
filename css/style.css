@@ -1,0 +1,358 @@
+/* --------------- General Css ---------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Myriad Pro", sans-serif;
+}
+
+
+/*----------------- Header ---------------------------*/
+
+header {
+    background-image: url(../images/hader-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.header-logo {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.header-logo img {
+    height: 70px;
+}
+
+.header-title h1 {
+    color: #034ea2;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.header-outline img {
+    width: 100%;
+    margin-top: -17px;
+}
+
+
+/*----------------- About Us ---------------------------*/
+
+.about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-us .section-title h1 {
+    color: #034ea2;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.about-us .section-title p {
+    color: #231f20;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+
+/*----------------- Director Message ---------------------------*/
+
+.director {
+    background-color: #034ea2;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.director-title h1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    font-size: 35px;
+}
+
+
+/*.director-title h1::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 240px;
+    bottom: 40px;
+    background-color: #D3D3D3;
+    left: 40%;
+}*/
+
+.director-image img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.director-message p {
+    color: #fff;
+    line-height: 25px;
+    font-size: 17px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+.director-message p br:nth-child(1) {
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 29px !important;
+}
+
+.director-message p br:nth-child(2) {
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 29px !important;
+}
+
+.director-message p br:nth-child(3) {
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 29px !important;
+}
+
+.director-message p br:nth-child(4) {
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 29px !important;
+}
+
+
+/*----------------- Skyblue groups ---------------------------*/
+
+.skyblue-group-wrapper {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.skyblue-group-wrapper .section-title h1 {
+    color: #034ea2;
+    font-weight: 500;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.grp-img img {
+    margin-bottom: 30px;
+}
+
+.grp-img .para {
+    color: #4d4d4f;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: normal;
+}
+
+.skyblue-group-wrapper .seprate {
+    padding: 0 2%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.vision-wrapper {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.item-icon {
+    background-color: #034ea2;
+    display: flex;
+    height: 135px;
+    width: 135px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.item-icon i {
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+.vision-title h1 {
+    font-size: 32px;
+    color: #034ea2;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.vision-title p {
+    color: #4d4d4f;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+/*----------------- Jorney With Us ---------------------------*/
+
+.jouney-title {
+    background-color: #034ea2;
+    text-align: center;
+}
+
+.jouney-title h1 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.triangle-icon {
+    text-align: center;
+    margin-top: -38px;
+}
+
+.triangle-icon i {
+    font-size: 70px;
+    color: #034ea2;
+}
+
+
+/* jouney flex box*/
+
+.jorney-box-wrapper {
+    margin-bottom: 100px;
+}
+
+.journey-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.topic {
+    height: 260px;
+    width: 260px;
+    background-color: #034ea2;
+    box-shadow: 0 0 20px #bac3c3;
+    margin: 9px;
+    display: flex;
+}
+
+.topic p {
+    margin: auto;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*----------------- Footer ---------------------------*/
+
+.footer {
+    background-image: url(../images/contact-bg.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.footer-overlay {
+    background-color: #034da2b2;
+}
+
+.contact-number h1 {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+}
+
+.network h1 {
+    color: #fff;
+    font-weight: 500;
+    padding-top: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.location-1 {
+    margin: 9px;
+}
+
+.location-1 h4 {
+    color: #fff;
+}
+
+.location-1 p {
+    color: #fff;
+    line-height: 12px;
+}
+
+.location-1 a {
+    text-decoration: none;
+    color: #fff200;
+}
+
+.address {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.address h4 {
+    color: #fff;
+}
+
+.address h5 {
+    color: #fff;
+}
+
+@media only screen and (max-width:991px) {
+    .vision-title {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .vision-title {
+        margin-left: 0px;
+    }
+    .skyblue-group-wrapper .seprate {
+        border-right: none;
+    }
+    .vision-wrapper {
+        text-align: left;
+    }
+}
